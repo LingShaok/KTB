@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="KTB1.2">
+    <output-path>$PROJECT_DIR$/out/artifacts/KTB1_2</output-path>
+    <root id="archive" name="KTB1.2_war.war">
+      <element id="artifact" artifact-name="KTB1.2:war exploded" />
+      <element id="dir-copy" path="$PROJECT_DIR$/../KTB1/src/main/webapp" />
+    </root>
+  </artifact>
+</component>
